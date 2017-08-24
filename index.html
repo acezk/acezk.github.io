@@ -1,6 +1,7 @@
+<!DOCTYPE html>
 <html>
     <head>
-        
+        <meta charset="utf-8">
     </head>
     <body>
         <code>
@@ -13,6 +14,12 @@
                     console.log('第二个大');
                 }
             }
+        </code>
+        
+        <code>
+        	String.prototype.replaceAll = function(s1,s2){ 
+				return this.replace(new RegExp(s1,"gm"),s2); 
+			}
         </code>
     </body>
 </html>
